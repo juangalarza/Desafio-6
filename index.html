@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/myStyles.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".sidenav-trigger").sideNav();
+        });
+    </script>
+    <title>Desafio 5</title>
+</head>
+
+<body>
+    
+    <header class="navbar">   
+        <nav id="inicio" class="amber">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"><img src="img/nike-w.png" class="" alt="Logo"></a>
+                    <ul class="sidenav" id="slide-out">
+                        <li class="sidenav-brand"><img src="img/nike-brand.png" style="width: 80px;"></li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                    <a href="#" data-activates="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+
+    <section class="container-fluid hero">
+        <div class="row d-flex f-column-s f-row-lg f-ai-center">
+            <div class="col s12 l6 order-2">
+                <div class="chip amber">JORDAN</div>
+                <h1 class="title-hero">CREÉS QUE YA LO VISTE TODO?</h1>
+                <p class="parraf-hero">Pensá de nuevo. Los primeros 50 años de Nike fueron solo el principio.
+                    Mirá el video y sumate a la celebración.</p>
+                <a href="#" class="waves-effect waves-light btn amber btn-hero">CONOCE JORDAN</a>
+            </div>
+            <div class="col s12 l6 order-1">
+                <img src="img/hero_img.webp" class="responsive-img" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="productos" class="container-fluid">
+        <h1 class="center-align s-title">JORDAN's</h1>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card myCards z-depth-2">
+                        <div class="card-image">
+                            <img src="img/card-1.webp">
+                            <span class="card-title">Urban</span>
+                        </div>
+                        <div class="card-content">
+                            <p>El mejor calzado urbano</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card myCards z-depth-2">
+                        <div class="card-image">
+                            <img src="img/card-2.webp">
+                            <span class="card-title">Urban</span>
+                        </div>
+                        <div class="card-content">
+                            <p>El mejor calzado urbano</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card myCards">
+                        <div class="card-image">
+                            <img src="img/card-3.webp">
+                            <span class="card-title">Urban</span>
+                        </div>
+                        <div class="card-content">
+                            <p>El mejor calzado urbano</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card myCards">
+                        <div class="card-image">
+                            <img src="img/card-4.webp">
+                            <span class="card-title">Urban</span>
+                        </div>
+                        <div class="card-content">
+                            <p>El mejor calzado urbano</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Ver producto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 center-align m-20">
+                    <a href="#" class="waves-effect waves-light btn amber">Ver todos los Productos</a>
+                </div>
+            </div>   
+    </section>
+
+    <section id="contacto" class="container-fluid mp-0">
+        <h1 class="center-align s-title">CONTACTANOS</h1>
+        <div class="row">
+            <div class="col s12 l6 order-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.8169189275986!2d-68.53094858500387!3d-31.52918798136661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402627b47aa5%3A0x476cc0c541ab5e40!2sFolcode!5e0!3m2!1ses!2sar!4v1653249630203!5m2!1ses!2sar"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+            </div>
+            <div class="col s12 l6 order-1 w-100 p-2550">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Nombres" id="Nombres" type="text" class="validate">
+                            <label for="Nombres">Nombres</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input placeholder="Apellidos" id="Apellidos" type="text" class="validate">
+                            <label for="Apellidos">Apellidos</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" placeholder="Su email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" placeholder="Dejenos un mensaje" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Mensaje</label>
+                        </div>
+                    </div>
+                    <div class="row center-align">
+                        <a href="" class="waves-effect waves-light btn amber btn-hero" type="submit">Enviar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer amber">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="#" class="brand-logo"><img src="img/nike-w.png" class="brand-footer" alt="Logo"></a>
+                    <p class="foot-parrafo">Pensá de nuevo. Los primeros 50 años de Nike fueron solo el principio.
+                        Mirá el video y sumate a la celebración.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a href="#inicio" class="black-text fw-600">Inicio</a></li>
+                        <li><a href="#productos" class="black-text fw-600">Productos</a></li>
+                        <li><a href="#contacto" class="black-text fw-600">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2022 Copyright - Folcademy
+                <a class="white-text right" href="mailto:hello@finda.ar">Juan Galarza</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
